@@ -151,3 +151,40 @@ select {
 .find_jobs:active {
   border: 2px solid black;
 }
+
+/* Hiring Section  */
+
+.hiring {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 75px;
+  justify-content: center;
+}
+
+.hiring_title {
+  font-size: 36px;
+  color: #28306c;
+  margin-bottom: 25px;
+  font-weight: 600;
+  cursor: text;
+}
+
+.hiring_images {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.hiring_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: #28306c;
+  margin: 80px 150px;
+}
+
+.l_1 i,
+.l_2 i {
+  color: red;
+}
