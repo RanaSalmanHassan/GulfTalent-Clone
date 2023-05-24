@@ -267,3 +267,73 @@ select {
   font-size: 36px;
   color: white;
 }
+
+/* Jobs Location Section  */
+.jobs_location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 239, 239);
+  padding: 50px 0px;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 600;
+  color: #28306c;
+  padding-bottom: 25px;
+}
+
+.c_flag img {
+  transition: 0.4s ease-in-out;
+}
+
+.country:hover .c_flag img {
+  transform: scale(1.5);
+  transition: 0.4s ease-in-out;
+}
+
+.countries {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.country_last div {
+  font-size: 20px;
+}
+
+.county_desc i {
+  color: #e0082a;
+  font-size: 15px;
+}
+
+.countries div {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+}
+
+.countries div div:hover {
+  border: none;
+}
+
+.countries div .c_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.c_flag img {
+  height: 40px;
+  width: 40px;
+}
+
+.span_country {
+  font-size: 18px;
+  color: #0077b5;
+}
