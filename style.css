@@ -412,3 +412,125 @@ select {
   color: #f21b03;
   font-size: 15px;
 }
+
+/* Enhance Career Section  */
+
+.enhance_career {
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+  padding-bottom: 25px;
+}
+.heading {
+  align-self: center;
+}
+
+.cards {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  cursor: pointer;
+  background: #ffffff;
+  gap: 10px;
+}
+
+.card_desc ul {
+  list-style: disc;
+}
+
+.card_desc li {
+  font-size: 16pxc;
+  color: #636464;
+  margin: 0px 0px 10px;
+}
+
+.card_title {
+  font-size: 24px;
+  color: #636464;
+  padding: 10px 0px;
+}
+.card hr {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+.card_button {
+  color: white;
+  padding: 12px 16px;
+  width: 120%;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+#c_b1 {
+  background-color: rgb(107, 22, 107);
+}
+#c_b1:hover {
+  background-color: rgb(189, 67, 189);
+}
+#c_b2 {
+  background-color: rgb(34, 153, 34);
+}
+#c_b2:hover {
+  background-color: rgb(13, 99, 13);
+}
+
+#c_b3 {
+  background: rgb(184, 124, 14);
+}
+#c_b3:hover {
+  background: rgb(236, 163, 28);
+}
+
+#card1 ul li::marker {
+  color: purple;
+}
+#card2 ul li::marker {
+  color: green;
+}
+#card3 ul li::marker {
+  color: orange;
+}
+
+.card_image img {
+  height: 90px;
+  width: 90px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card_image {
+  transform: scale(1.25);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease-in;
+}
+
+#card1:hover {
+  border-top: 5px solid rgb(107, 22, 107);
+  transition: transform 0.3s ease-in;
+}
+#card2:hover {
+  border-top: 5px solid rgb(34, 153, 34);
+  transition: transform 0.3s ease-in;
+}
+#card3:hover {
+  border-top: 5px solid rgb(184, 124, 14);
+  transition: transform 0.3s ease-in;
+}
