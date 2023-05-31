@@ -534,3 +534,67 @@ select {
   border-top: 5px solid rgb(184, 124, 14);
   transition: transform 0.3s ease-in;
 }
+
+/* Footer Section  */
+footer {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  background-color: #636464;
+  color: white;
+  padding: 50px 100px;
+}
+
+footer div .title {
+  font-size: 18px;
+  margin: 0px 0px 25px;
+}
+
+footer div ul {
+  list-style: none;
+}
+
+.footer_li {
+  margin: 10px 0px;
+  font-size: 13px;
+  transition: 0.1s ease-in;
+  cursor: pointer;
+}
+
+.footer_li:hover {
+  transition: 0.1s ease-in;
+  opacity: 0.6;
+}
+.footer_hr {
+  width: 125px;
+  margin-bottom: 15px;
+}
+.follow_desc i {
+  font-size: 35px;
+  margin: 0px 5px;
+  margin-bottom: 10px;
+  transition: transform 0.25s ease-in-out;
+}
+.fa-facebook:hover,
+.fa-twitter:hover {
+  transform: scale(1.5);
+  transition: transform 0.25s ease-in-out;
+}
+
+.desc_img_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.footer_img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer_img:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease-in-out;
+}
